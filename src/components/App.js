@@ -1,7 +1,12 @@
-
-
+import Navbar from './Navbar'
+import Main from './Main'
+import Card from './Card'
 export default function(){
     return(
-        <h1> Working </h1>
+        <div className='container'>
+            <Navbar/>
+            <Main/>
+            <Card/>
+        </div> 
     )
 }
