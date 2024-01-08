@@ -1,9 +1,9 @@
-import BnBLogo from '../Images/Frame 1.png'
+import airBnB from '../Images/Frame 1.png'
 
-export default function(){
-    return(
-        <nav className="nav">
-            <img src={BnBLogo} className="nav-logo" alt='nav-logo'></img>
+export default function Navbar() {
+    return (
+        <nav>
+            <img src={airBnB}className="nav--logo" />
         </nav>
     )
 }
